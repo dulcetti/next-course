@@ -13,13 +13,13 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn test --findRelatedTests --bail"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix"
+      "yarn lint --fix",
+      "yarn test --findRelatedTests --bail"
     ]
   },
   "config": {
