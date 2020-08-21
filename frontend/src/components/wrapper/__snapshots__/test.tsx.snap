@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Component should be render the Heading 1`] = `
+<main
+  class=""
+>
+  <h1
+    class=""
+  >
+    Papo de Bar
+  </h1>
+</main>
+`;
