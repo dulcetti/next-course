@@ -1,0 +1,21 @@
+{
+  "name": "Dulcetti Boilerplate",
+  "short_name": "Bruno Dulcetti",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#FFCC33",
+  "description": "Boilerlate com React usando Typescript no NextJS e Styled Components e Storybook",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#FFCC33"
+}
