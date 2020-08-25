@@ -8,7 +8,9 @@
     "start": "next dev",
     "start:prod": "next start",
     "test": "jest",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook"
   },
   "husky": {
     "hooks": {
@@ -38,6 +40,10 @@
     "@babel/preset-typescript": "^7.10.4",
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
+    "@storybook/addon-actions": "^6.0.17",
+    "@storybook/addon-essentials": "^6.0.17",
+    "@storybook/addon-links": "^6.0.17",
+    "@storybook/react": "^6.0.17",
     "@testing-library/jest-dom": "^5.11.3",
     "@testing-library/react": "^10.4.8",
     "@types/jest": "^26.0.10",
@@ -59,6 +65,7 @@
     "lint-staged": "^10.2.11",
     "plop": "^2.7.4",
     "prettier": "^2.0.5",
+    "react-is": "^16.13.1",
     "typescript": "^3.9.7"
   }
 }
